@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
+# Visual Studio Version 17
 VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ballistics_reloading_app", "ballistics_reloading_app\ballistics_reloading_app.csproj", "{9BA6B2E1-3B39-49B3-A0FC-92272B822B0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gnu_ballistics", "gnu_ballistics\gnu_ballistics.csproj", "{DC861A11-892B-4E2F-9B2C-CD624D11E508}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gnu_ballistics", "gnu_ballistics\gnu_ballistics.csproj", "{DC861A11-892B-4E2F-9B2C-CD624D11E508}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "base_logic", "base_logic\base_logic.csproj", "{7A2A810D-E56E-45D7-98B3-2D8A1477479A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "base_logic", "base_logic\base_logic.csproj", "{7A2A810D-E56E-45D7-98B3-2D8A1477479A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testLib", "test_gnu_ballistics\testLib.csproj", "{5E7D2BCE-21DD-4D33-8034-F86362A5508E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testLib", "test_gnu_ballistics\testLib.csproj", "{5E7D2BCE-21DD-4D33-8034-F86362A5508E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win_UI", "Win_UI\Win_UI.csproj", "{579ECD44-53C7-4F63-8F10-8DB5D35CD923}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9BA6B2E1-3B39-49B3-A0FC-92272B822B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BA6B2E1-3B39-49B3-A0FC-92272B822B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BA6B2E1-3B39-49B3-A0FC-92272B822B0D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{9BA6B2E1-3B39-49B3-A0FC-92272B822B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BA6B2E1-3B39-49B3-A0FC-92272B822B0D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BA6B2E1-3B39-49B3-A0FC-92272B822B0D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{DC861A11-892B-4E2F-9B2C-CD624D11E508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC861A11-892B-4E2F-9B2C-CD624D11E508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC861A11-892B-4E2F-9B2C-CD624D11E508}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,6 +29,10 @@ Global
 		{5E7D2BCE-21DD-4D33-8034-F86362A5508E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E7D2BCE-21DD-4D33-8034-F86362A5508E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E7D2BCE-21DD-4D33-8034-F86362A5508E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579ECD44-53C7-4F63-8F10-8DB5D35CD923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579ECD44-53C7-4F63-8F10-8DB5D35CD923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579ECD44-53C7-4F63-8F10-8DB5D35CD923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579ECD44-53C7-4F63-8F10-8DB5D35CD923}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
