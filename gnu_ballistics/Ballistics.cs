@@ -83,6 +83,7 @@ namespace gnu_ballistics
                     s.v_fps = v;
                     s.vx_fps = vx;
                     s.vy_fps = vy;
+                    mtarget_list.Add(n,s);
                     n++;
                 }
 

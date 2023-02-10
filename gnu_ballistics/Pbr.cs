@@ -1,7 +1,7 @@
 ﻿using System;
 namespace gnu_ballistics
 {
-    enum Pbr_status
+    public enum Pbr_status
     {
         PBR_UNASSIGNED,
         PBR_VALID,
@@ -20,11 +20,11 @@ namespace gnu_ballistics
         #endregion
 
         #region PublicProps
-        Int32 near_zero_yards { get { return mnear_zero_yards; } }
-        Int32 far_zero_yards { get { return mfar_zero_yards; } }
-        Int32 min_PBR_yards { get { return mmin_PBR_yards; } }
-        Int32 max_PBR_yards { get { return mmax_PBR_yards; } }
-        Int32 sight_in_at_100yards { get { return msight_in_at_100yards; } }
+        public Int32 near_zero_yards { get { return mnear_zero_yards; } }
+        public Int32 far_zero_yards { get { return mfar_zero_yards; } }
+        public Int32 min_PBR_yards { get { return mmin_PBR_yards; } }
+        public Int32 max_PBR_yards { get { return mmax_PBR_yards; } }
+        public Int32 sight_in_at_100yards { get { return msight_in_at_100yards; } }
         #endregion
 
         #region Constructors
@@ -49,7 +49,7 @@ namespace gnu_ballistics
          * @param vital_size
          * @return 0 if pbr exists, -1 for any errors
          */
-        Pbr_status solve(DragFunction drag_function, double drag_coefficient, double vi,
+        public Pbr_status solve(DragFunction drag_function, double drag_coefficient, double vi,
                       double sight_height, double vital_size)
         {
             double t = 0;
@@ -202,7 +202,7 @@ namespace gnu_ballistics
                 if (Math.Abs(Step) < (0.01 / 60)) quit = 1;
             }
 
-            if (status == Pbr_status.PBR_VALID)
+            if (status != Pbr_status.PBR_VALID)
             {
                 return status;
             }
