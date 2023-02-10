@@ -52,4 +52,20 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\base_logic\base_logic.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Dialogs\DialogCreateGun.xaml.cs">
+	    <DependentUpon>DialogCreateGun.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Dialogs\DialogCreateGun.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
