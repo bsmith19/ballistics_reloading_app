@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "testLib", "test_gnu_ballist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win_UI", "Win_UI\Win_UI.csproj", "{579ECD44-53C7-4F63-8F10-8DB5D35CD923}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mac_UI", "Mac_UI\Mac_UI.csproj", "{5B4671F7-7B9A-4D8A-949E-C2A37C0E9085}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{579ECD44-53C7-4F63-8F10-8DB5D35CD923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{579ECD44-53C7-4F63-8F10-8DB5D35CD923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{579ECD44-53C7-4F63-8F10-8DB5D35CD923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4671F7-7B9A-4D8A-949E-C2A37C0E9085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4671F7-7B9A-4D8A-949E-C2A37C0E9085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4671F7-7B9A-4D8A-949E-C2A37C0E9085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4671F7-7B9A-4D8A-949E-C2A37C0E9085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
